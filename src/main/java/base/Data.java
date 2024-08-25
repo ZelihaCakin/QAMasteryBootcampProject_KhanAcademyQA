@@ -1,8 +1,10 @@
 package base;
 
-import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.WebDriver;
 
 public class Data {
+    //public static String url = "https://www.khanacademy.org/";
+    public String url = System.getProperty("url");
     public static String name ="Zeliha";
     public static String lastname ="Çakın";
     public static String email ="zeliha.mutlu.063@gmail.com";
